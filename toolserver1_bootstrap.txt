@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo mkdir toolbox
+sudo cd toolbox
+sudo yum install java-11-amazon-corretto.x86_64 -y
+sudo yum install git -y
+sudo amazon-linux-extras install ansible2 -y
+sudo amazon-linux-extras install nginx1 -y
+sudo service nginx start
